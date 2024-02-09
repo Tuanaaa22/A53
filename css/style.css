@@ -1,0 +1,34 @@
+body {
+  background-color: #293241;
+  font-family: "Noto Sana JP", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container a {
+  text-decoration: none;
+  color: #fff;
+}
+.container .btn {
+  border: 1px solid #52b69a;
+  border-radius: 0.5em;
+  padding: 15px 45px;
+  display: inline-block;
+  margin: 2em;
+  background-color: transparent;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.container .btn:hover {
+  background-color: #79c893;
+  color: black;
+}
+.container .modal {
+  position: fixed;
+  padding: 20px;
+  max-width: 500px;
+  top: 50%;
+  left: 50%;
+}/*# sourceMappingURL=style.css.map */
